@@ -1,0 +1,168 @@
+html { 
+
+	
+	 height: 100%;
+}
+
+body {
+
+	font-family: 'Arvo', serif;
+  
+}
+
+.titre {
+	margin-top: 70px;
+	
+	
+}
+
+
+
+
+
+.container {
+	
+	border: 3px blue ;
+	text-align: center;
+	max-width: 700px;
+}
+
+.container2 {
+	 left:70%; 
+	 top:30%; 
+	 width:300px; 
+	 height:500px; 
+	 margin-left:-400px; 
+	 margin-top:-100px; 
+	 padding:0px; 
+	 
+	
+	 text-align:center; 
+	 position:absolute;
+	
+    
+	
+	
+	
+	
+	
+}
+	
+
+
+
+ #Epaule { 
+ visibility:hidden;
+	position:absolute;
+	margin-top:50px;
+	
+ } 
+ #Coude { 
+  visibility:hidden;
+	position:absolute;
+	margin-top:50px;
+	
+ } 
+ #Poignet { 
+ visibility:hidden;
+	position:absolute;
+	margin-top:50px;
+	
+ } 
+ #Hanche { 
+ visibility:hidden;
+	position:absolute;
+	margin-top:50px;
+	
+ } 
+ #Genou { 
+ visibility:hidden;
+	position:absolute;
+	margin-top:50px;
+	
+ } 
+ #Cheville { 
+  visibility:hidden;
+	position:absolute;
+	margin-top:50px;
+	
+ } 
+ 
+
+
+
+ 
+  
+ 
+ 
+
+
+
+img { 
+ 	width: 159px; 
+	height: 508px;
+}
+
+#picture {
+  position: relative;
+  padding-top: 30px;
+  padding-right: 0;
+  padding-bottom: 35px;
+}
+
+#picture button {
+  background-color: rgba(75, 72, 77, 0.7); 
+  width:55px;
+  height:55px;
+  line-height:55px;
+  border: 1px solid black;
+  border-radius: 50%;
+  outline-style: none;
+}
+
+#picture button:hover {
+   background-color: rgba(255, 0, 0, 0.7);
+}
+
+.epaule {
+  cursor: pointer;	
+  position: absolute;
+  left: 28%;
+  top: 19%;
+}
+
+.coude {
+   cursor: pointer;		
+  position: absolute;
+  top: 37%;
+  left: 63%;
+}
+
+.poignet {
+  cursor: pointer;	
+  position: absolute;
+  top: 44%;
+  left: 26%;
+}
+
+.hanche {
+  cursor: pointer;	
+  position: absolute;
+  top: 49%;
+  left: 57%;
+} 
+
+.genou {
+  cursor: pointer;		
+  position: absolute;
+  top: 66%;
+  left: 37%;
+}
+
+.cheville {
+  cursor: pointer;		
+  position: absolute;
+  top: 80%;
+  left: 51%;
+}
+
